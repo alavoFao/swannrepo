@@ -9,7 +9,7 @@
                 for (int c = 0; c < list.Count; c++) propagator[d][t][c] = list[c];
             }
         }
-    }
+    }//hello
   public override void Save(string filename)
     {
         int[] bitmap = new int[MX * MY];
