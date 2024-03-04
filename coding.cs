@@ -25,3 +25,9 @@
                 }
             }
         }
+ for (int i = 0; i < wave.Length; i++)
+            {
+                int contributors = 0, r = 0, g = 0, b = 0;
+                int x = i % MX, y = i / MX;
+                for (int dy = 0; dy < N; dy++) for (int dx = 0; dx < N; dx++)
+                    {
